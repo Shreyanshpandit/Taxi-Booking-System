@@ -1,0 +1,11 @@
+package com.project.TaxiBookingSystem.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.project.TaxiBookingSystem.entity.Customer;
+
+@Repository
+public interface CustomerRepository2 extends JpaRepository<Customer, Integer> {
+    
+}
